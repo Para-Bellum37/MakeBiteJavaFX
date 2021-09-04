@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="168.0" prefWidth="217.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="biteprog.BiteController">
+    <Button onAction="#sayBiteMe" text="Say 'Bite Me!'" textAlignment="CENTER">
+      <font>
+         <Font size="18.0" />
+      </font></Button>
+    <Label fx:id="BiteMe" textAlignment="CENTER" GridPane.rowIndex="1" />
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
